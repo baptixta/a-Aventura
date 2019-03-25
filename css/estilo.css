@@ -1,8 +1,8 @@
 @import url('https://fonts.googleapis.com/css?family=Press+Start+2P');
 
 body {
-	background: #000;
-	color: #fff;
+	background: linear-gradient(to right, #0f2027, #203a43, #2c5364);
+	color: #f1f1f1;
 	font-family: 'Press Start 2P', cursive;
 	padding: 10px;
 	font-size: 30px;
@@ -22,9 +22,9 @@ body {
 
 .jogo h1 {
 	font-size: 80px;
-	text-align: center;
-	padding: 5px;
 	margin: 10px;
+	padding: 5px;
+	text-align: center;
 }
 
 .jogo p {
@@ -35,7 +35,26 @@ body {
 }
 
 .btn-jogar {
+	border: 6px solid #f1f1f1;
 	font-size: 50px;
 	margin-top: 75px;
+	padding: 25px 35px;
 	text-align: center;
+	transition: all .5s ease;
+}
+
+.btn-jogar:hover {
+	background: #f1f1f1;
+	color: #203a43 !important;
+	cursor: pointer;
+	transition: all .3s ease;
+}
+
+/* --------- */
+/* Animações */
+/* --------- */
+
+@@keyframes blink {
+	from {color: #f1f1f1;}
+  to {opacity: 0%;}
 }
