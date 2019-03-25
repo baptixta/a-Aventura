@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css?family=Press+Start+2P');
+
+body {
+	background: #000;
+	color: #fff;
+	font-family: 'Press Start 2P', cursive;
+	padding: 10px;
+	font-size: 30px;
+}
+
+.wrapper {
+	max-width: 100%;
+}
+
+.jogo {
+	align-items: center;
+	display: flex;
+	flex-direction: column;
+	height: 100vh;
+	justify-content: center;
+}
+
+.jogo h1 {
+	font-size: 80px;
+	text-align: center;
+	padding: 5px;
+	margin: 10px;
+}
+
+.jogo p {
+	font-size: 35px;
+	line-height: 38px;
+	text-align: center;
+	width: 60%;
+}
+
+.btn-jogar {
+	font-size: 50px;
+	margin-top: 75px;
+	text-align: center;
+}
