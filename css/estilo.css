@@ -1,5 +1,12 @@
 @import url('https://fonts.googleapis.com/css?family=Press+Start+2P');
 
+/* DEFAULT */
+/* DEFAULT */
+
+* {
+	scroll-behavior: smooth;
+}
+
 body {
 	background: linear-gradient(to right, #0f2027, #203a43, #2c5364);
 	color: #f1f1f1;
@@ -8,11 +15,49 @@ body {
 	font-size: 30px;
 }
 
+a {
+	color: #f1f1f1;
+	text-decoration: none;
+}
+
+input {
+	background: transparent;
+  border-color: #f1f1f1;
+	border-width: 0 0 2px;
+	color: #f1f1f1;
+	font-family: 'Press Start 2P', cursive;
+	font-size: 25px;
+	margin: 40px auto;
+	outline: 0;
+	padding: 7px 0px;
+	text-align: center;
+	transition: all .3s ease;
+}
+
+input:focus {
+  border-color: #3c728a;
+	transition: all .3s ease;
+}
+
 .wrapper {
 	max-width: 100%;
 }
 
-.jogo {
+.arrow {
+	transform: scale(0.8);
+	transition: all .3s ease;
+}
+
+.arrow:hover {
+	cursor: pointer;
+	transform: scale(1);
+	transition: all .3s ease;
+}
+
+/* HOME */
+/* HOME */
+
+.home {
 	align-items: center;
 	display: flex;
 	flex-direction: column;
@@ -20,14 +65,14 @@ body {
 	justify-content: center;
 }
 
-.jogo h1 {
+.title {
 	font-size: 80px;
 	margin: 10px;
 	padding: 5px;
 	text-align: center;
 }
 
-.jogo p {
+.home p {
 	font-size: 35px;
 	line-height: 38px;
 	text-align: center;
@@ -40,7 +85,7 @@ body {
 	margin-top: 75px;
 	padding: 25px 35px;
 	text-align: center;
-	transition: all .5s ease;
+	transition: all .4s ease;
 }
 
 .btn-jogar:hover {
@@ -50,11 +95,39 @@ body {
 	transition: all .3s ease;
 }
 
-/* --------- */
-/* Animações */
-/* --------- */
+/* NAME */
+/* NAME */
 
-@@keyframes blink {
-	from {color: #f1f1f1;}
-  to {opacity: 0%;}
+.name {
+	align-items: center;
+	display: flex;
+	flex-direction: column;
+	height: 100vh;
+	justify-content: center;
+}
+
+/* ARMAS */
+/* ARMAS */
+
+.armas {
+	align-items: center;
+	display: flex;
+	flex-direction: column;
+	height: 100vh;
+	justify-content: center;
+}
+
+.armas-title {
+	font-size: 70px;
+	margin: 10px;
+	padding: 5px;
+	text-align: center;
+}
+
+.armas-content {
+
+}
+
+.armas-box {
+
 }

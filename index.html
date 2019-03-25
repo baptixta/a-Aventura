@@ -9,14 +9,47 @@
 
 <body>
 	<div class="wrapper">
-		<div class="jogo">
-			<h1>a Aventura</h1>
+		<!-- HOME -->
+		<div class="home">
+			<h1 class="title">a Aventura</h1>
 			<p>Seja bem vindo(a), você tem poder sobre seu destino!<br>
 				<span class="blink-text">Clique no botão para começar</span></p>
-			<a class="btn-jogar">JOGAR</a>
+			<a class="btn-jogar" href="#name">JOGAR</a>
 		</div>
+
+		<!-- NOME PLAYER -->
+		<div class="name" id="name">
+			<h1 class="title">Quem é você?</h1>
+			<input id="player" type="text" name="player" placeholder="Ash Ketchum">
+
+			<div class="arrow">
+				<a href="#armas">
+					<img src="img/arrow.png">
+				</a>
+			</div>
+		</div>
+
+		<!-- ARMA -->
+		<div id="armas" class="armas">
+			<h1 class="armas-title">VAI USAR O QUE?</h1>
+			<div class="armas-content">
+				<div class="armas-box">
+
+				</div>
+
+				<div class="armas-box">
+
+				</div>
+
+				<div class="armas-box">
+
+				</div>
+			</div>
+		</div>
+
 	</div>
 
+	<script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
 	<script src="js/jogo.js"></script>
 </body>
 </html>
