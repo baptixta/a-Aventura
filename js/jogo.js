@@ -1,8 +1,13 @@
 // ----------------------------
 // a Aventura -----------------
 // ----------------------------
-let btnJogar = document.querySelector('.btn-jogar');
+const nomePlayer = document.querySelector('#ash-ketchum');
 
-btnJogar.addEventListener('click', () => {
-  mundoFantastico();
+nomePlayer.addEventListener('click', () => {
+    const player = document.querySelector('#player').value;
+    document.querySelector('.nome-player').innerHTML = player;
+
+    if (document.querySelector('#player').value == "") {
+      document.querySelector('.nome-player').innerHTML = "Jogador(a)";
+    }
 });
