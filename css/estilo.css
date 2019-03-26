@@ -201,3 +201,30 @@ input:focus {
 	height: 100vh;
 	justify-content: center;
 }
+
+/* Atacar */
+.floresta-atacar {
+	align-items: center;
+	display: flex;
+	flex-direction: column;
+	height: 100vh;
+	justify-content: center;
+}
+
+/* Ignorar */
+.floresta-ignorar {
+	align-items: center;
+	display: flex;
+	flex-direction: column;
+	height: 100vh;
+	justify-content: center;
+}
+
+/* Tentar Ajudar */
+.floresta-tentar-ajudar {
+	align-items: center;
+	display: flex;
+	flex-direction: column;
+	height: 100vh;
+	justify-content: center;
+}
