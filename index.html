@@ -20,7 +20,7 @@
 		<!-- NOME PLAYER -->
 		<div class="name" id="name">
 			<h1 class="title">Quem é você?</h1>
-			<input id="player" type="text" name="player" placeholder="Ash Ketchum">
+			<input id="player" type="text" name="player" placeholder="Ash Ketchum" maxlength="23">
 
 			<div id="ash-ketchum" class="arrow">
 				<a href="#armas">
@@ -54,9 +54,79 @@
 		<!-- ESPADA - INÍCIO -->
 		<div id="espada-inicio" class="espada-inicio">
 			<img src="img/reino.png">
-			<h2 class="">Olá, <span class="nome-player"></span>! Você acaba de chegar no reino de Brygrons.</h2>
-			<p>Essa é uma aventura interativa, e cada decisão que você fizer vai mudar sua história.</p>
+			<h2>Olá, <span class="nome-player"></span>!</h2>
+			<p class="espada-text">Você acaba de chegar no reino de Brygrons. Essa é uma aventura interativa, e cada decisão que você fizer vai alterar seu destino final.</p>
+
+			<div class="arrow">
+				<a href="#espada-intro">
+					<img src="img/arrow.png">
+				</a>
+			</div>
 		</div>
+
+		<!-- ESPADA - INTRO -->
+		<div id="espada-intro" class="espada-intro">
+			<p class="espada-text"><span class="nome-player"></span>O que você quer explorar?</p>
+
+			<div class="espada-content">
+					<a href="#floresta-muda">
+						<div class="espada-box">
+								<img src="img/floresta.png">
+						</div>
+					</a>
+
+					<a href="#floresta-muda">
+						<div class="espada-box">
+								<p class="espada-lugar">Floresta Muda</p>
+						</div>
+					</a>
+			</div>
+
+			<div class="espada-content">
+				<div class="espada-box">
+					<img src="img/templo.png">
+				</div>
+
+				<div class="espada-box">
+					<p class="espada-lugar">Templo Ninja</p>
+				</div>
+			</div>
+		</div>
+
+		<!-- FLORESTA MUDA -->
+		<div id="floresta-muda" class="floresta-muda">
+			<p class="espada-text">
+				Ao entrar na floresta, você encontrou uma árvore viva,
+				com sua boca selada com um feitiço, e ela parece querer te dizer algo.
+				O que você faz?
+			</p>
+
+			<div class="espada-content">
+				<div class="espada-box">
+					<p>atacar</p>
+				</div>
+
+				<div class="espada-box">
+					<p>ignorar</p>
+				</div>
+
+				<div class="espada-box">
+					<p>tentar ajudar</p>
+				</div>
+			</div>
+		</div>
+
+		<!-- ATACAR -->
+
+		<!-- IGNORAR -->
+
+		<!-- TENTAR AJUDAR -->
+
+		<!-- TEMPL0 NINJA -->
+		<div id="templo-ninja" class="">
+
+		</div>
+
 		<!-- JORNADA - ESPADA -->
 		<!-- /////////////// -->
 		<!-- FINAL DA JORNADA -->
