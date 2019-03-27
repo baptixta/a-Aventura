@@ -1,8 +1,4 @@
-// ----------------------------
-// a Aventura -----------------
-// ----------------------------
-
-// Aparecer o nome do Player
+// Aparecer o nome do Player (Guerreiro)
 // -------------------------
 const nomePlayer = document.querySelector('#ash-ketchum');
 
@@ -14,4 +10,3 @@ nomePlayer.addEventListener('click', () => {
       document.querySelector('.nome-player').innerHTML = "Jogador(a)";
     }
 });
-// -------------------------

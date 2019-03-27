@@ -8,71 +8,12 @@
 	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
 </head>
 
-<body>
+<body id="body-floresta-muda">
 	<div class="wrapper">
 
-		<!-- NOME PLAYER -->
-		<div class="name" id="name">
-			<h1 class="title">Quem é você?</h1>
-			<input id="player" type="text" name="player" placeholder="Ash Ketchum" maxlength="23">
-
-			<div id="ash-ketchum" class="arrow">
-				<a href="#armas">
-					<img src="img/arrow.png">
-				</a>
-			</div>
-		</div>
-
-		<!-- JORNADA - ESPADA -->
-		<!-- /////////////// -->
-		<!-- ESPADA - INÍCIO -->
-		<div id="espada-inicio" class="espada-inicio">
-			<img src="img/reino.png">
-			<h2>Olá, <span class="nome-player"></span>!</h2>
-			<p class="text">Você acaba de chegar no reino de Brygrons. Essa é uma aventura interativa, e cada decisão que você fizer vai alterar seu destino final.</p>
-
-			<div class="arrow">
-				<a href="#espada-intro">
-					<img src="img/arrow.png">
-				</a>
-			</div>
-		</div>
-
-		<!-- ESPADA - INTRO -->
-		<div id="espada-intro" class="espada-intro">
-			<p class="text"><span class="nome-player"></span>O que você quer explorar?</p>
-
-			<div class="content">
-					<a href="#floresta-muda">
-						<div class="box">
-								<img src="img/floresta.png">
-						</div>
-					</a>
-
-					<a href="#floresta-muda">
-						<div class="box">
-								<p class="espada-lugar">Floresta Muda</p>
-						</div>
-					</a>
-			</div>
-
-			<div class="content">
-				<a href="#templo-ninja">
-					<div class="box">
-						<img src="img/templo.png">
-					</div>
-				</a>
-
-				<a href="#templo-ninja">
-					<div class="box">
-						<p class="espada-lugar">Templo Ninja</p>
-					</div>
-				</a>
-			</div>
-		</div>
-
+		<!-- ///////////// -->
 		<!-- FLORESTA MUDA -->
-		<div id="floresta-muda" class="floresta-muda">
+		<div id="floresta-muda" class="container">
 			<p class="text">
 				Ao entrar na floresta, você encontrou uma árvore viva,
 				com sua boca selada por um feitiço, e ela parece querer te dizer algo.
@@ -101,7 +42,7 @@
 		</div>
 
 		<!-- ATACAR -->
-		<div id="floresta-atacar" class="floresta-atacar">
+		<div id="floresta-atacar" class="container">
 			<p class="text">
 				Você ataca a árvore, e no momento que sua espada encosta no tronco da grande
 				árvore, o feitiço que a deixava muda é desfeito.
@@ -128,7 +69,7 @@
 
 		<!-- //////////////////// -->
 
-			<div id="floresta-direita" class="floresta-direita">
+			<div id="floresta-direita" class="container">
 				<p class="text">
 					Ao seguir a direita a floresta foi ficando menos densa, até que
 					você chegou a um lugar que a vegetação acabou totalmente,
@@ -144,13 +85,15 @@
 				</div>
 			</div>
 
-			<div id="morro-inicio" class="morro-inicio">
+			<!-- //////////////////// -->
+
+			<div id="morro-inicio" class="container">
 
 			</div>
 
 			<!-- //////////////////// -->
 
-			<div id="floresta-esquerda" class="floresta-esquerda">
+			<div id="floresta-esquerda" class="container">
 				<p class="text">
 					Ao seguir a esquerda a floresta foi ficando menos densa, até que
 					você chegou a um lugar que a vegetação acabou totalmente,
@@ -168,7 +111,7 @@
 		<!-- FIM ATACAR -->
 
 		<!-- IGNORAR -->
-		<div id="floresta-ignorar" class="floresta-ignorar">
+		<div id="floresta-ignorar" class="container">
 			<p class="text">
 				você seguiu seu caminho, e ao seguir em frente,
 				sentiu que tinha alguém te seguindo. O que você faz?
@@ -192,7 +135,7 @@
 
 		<!-- //////////////////// -->
 
-		<div id="floresta-ignorar-2" class="floresta-ignorar-2">
+		<div id="floresta-ignorar-2" class="container">
 				<p class="text">
 					você continua ignorando tudo e todos, mas a sombra se aproxima
 					ainda mais conforme você segue em frente pela floresta...
@@ -215,7 +158,7 @@
 
 		<!-- //////////////////// -->
 
-		<div id="floresta-ignorar-3" class="floresta-ignorar-3">
+		<div id="floresta-ignorar-3" class="container">
 			<img src="img/davi-baptista.png" alt="Eu" title="Eu" class="eu">
 
 			<p class="text">na verdade a sombra te seguindo era eu... eu não faço uma
@@ -232,11 +175,7 @@
 
 		<!-- //////////////////// -->
 
-		<div id="floresta-ignorar-fim" class="floresta-ignorar-fim">
-			<p class="reset-journey">
-				aperte f5 pra recomeçar a jornada
-			</p>
-
+		<div id="floresta-ignorar-fim" class="container">
 			<h1 class="title">
 				GAME OVER
 			</h1>
@@ -244,12 +183,26 @@
 			<p class="text">
 				fica esperto da próxima vez... seu pilantra!
 			</p>
+
+			<div class="content">
+				<a href="index.html">
+					<div class="box">
+						<p>tentar de novo</p>
+					</div>
+				</a>
+			</div>
+		</div>
+
+		<!-- //////////////////// -->
+
+		<div id="floresta-olhar" class="container">
+
 		</div>
 
 		<!-- FIM IGNORAR -->
 
 		<!-- TENTAR AJUDAR -->
-		<div id="floresta-tentar-ajudar" class="floresta-tentar-ajudar">
+		<div id="floresta-tentar-ajudar" class="container">
 			<img src="img/galhos.png">
 
 			<p class="text">
@@ -268,11 +221,7 @@
 
 		<!-- //////////////////// -->
 
-		<div id="floresta-tentar-sair" class="floresta-tentar-sair">
-			<p class="reset-journey">
-				aperte f5 pra recomeçar a jornada
-			</p>
-
+		<div id="floresta-tentar-sair" class="container">
 			<h1 class="title">
 				GAME OVER
 			</h1>
@@ -280,13 +229,17 @@
 			<p class="text">
 				Você foi morto pelos galhos da árvore (r.i.p meu bacana)
 			</p>
+
+			<div class="content">
+				<a href="index.html">
+					<div class="box">
+						<p>tentar de novo</p>
+					</div>
+				</a>
+			</div>
 		</div>
 		<!-- FIM TENTAR AJUDAR -->
 
-		<!-- TEMPL0 NINJA -->
-		<div id="templo-ninja" class="templo-ninja">
-
-		</div>
 
 		<!-- JORNADA - ESPADA -->
 		<!-- /////////////// -->
@@ -296,6 +249,8 @@
 
 	</div>
 
-	<script src="js/jogo.js"></script>
+	<script src="js/guerreiro.js"></script>
+	<script src="js/mago.js"></script>
+	<script src="js/charlatao.js"></script>
 </body>
 </html>

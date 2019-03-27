@@ -15,6 +15,18 @@ body {
 	font-size: 30px;
 }
 
+#body-floresta-muda {
+	
+}
+
+#body-templo-ninja {
+	background: linear-gradient(to right, #333333, #dd1818);
+	color: #f1f1f1;
+	font-family: 'Press Start 2P', cursive;
+	padding: 10px;
+	font-size: 30px;
+}
+
 a {
 	color: #f1f1f1;
 	text-decoration: none;
@@ -52,6 +64,15 @@ input:focus {
 	cursor: pointer;
 	transform: scale(1);
 	transition: all .3s ease;
+}
+
+.container {
+	align-items: center;
+	display: flex;
+	flex-direction: column;
+	height: 100vh;
+	justify-content: center;
+	position: relative;
 }
 
 .content {
@@ -169,14 +190,6 @@ input:focus {
 /* ARMAS */
 /* ARMAS */
 
-.armas {
-	align-items: center;
-	display: flex;
-	flex-direction: column;
-	height: 100vh;
-	justify-content: center;
-}
-
 .armas-title {
 	font-size: 70px;
 	margin: 10px;
@@ -187,62 +200,14 @@ input:focus {
 /* JORNADA - ESPADA  */
 /* JORNADA - ESPADA */
 
-/* INÍCIO */
-.espada-inicio {
-	align-items: center;
-	display: flex;
-	flex-direction: column;
-	height: 100vh;
-	justify-content: center;
-}
-
-/* INTRO */
-.espada-intro {
-	align-items: center;
-	display: flex;
-	flex-direction: column;
-	height: 100vh;
-	justify-content: center;
-}
-
 .espada-lugar {
 	margin-top: 45px;
 	text-align: center;
 }
 
 /* Floresta Muda */
-.floresta-muda {
-	align-items: center;
-	display: flex;
-	flex-direction: column;
-	height: 100vh;
-	justify-content: center;
-}
 
 /* Atacar */
-.floresta-atacar {
-	align-items: center;
-	display: flex;
-	flex-direction: column;
-	height: 100vh;
-	justify-content: center;
-}
-
-.floresta-direita {
-	align-items: center;
-	display: flex;
-	flex-direction: column;
-	height: 100vh;
-	justify-content: center;
-}
-
-.floresta-esquerda {
-	align-items: center;
-	display: flex;
-	flex-direction: column;
-	height: 100vh;
-	justify-content: center;
-}
 
 .morro:after {
 	background-color: #f1f1f1;
@@ -255,63 +220,13 @@ input:focus {
 }
 
 /* Ignorar */
-.floresta-ignorar {
-	align-items: center;
-	display: flex;
-	flex-direction: column;
-	height: 100vh;
-	justify-content: center;
-}
 
-.floresta-ignorar-2 {
-	align-items: center;
-	display: flex;
-	flex-direction: column;
-	height: 100vh;
-	justify-content: center;
-}
-
-.floresta-ignorar-3 {
-	align-items: center;
-	display: flex;
-	flex-direction: column;
-	height: 100vh;
-	justify-content: center;
-}
-
-.floresta-ignorar-fim {
-	align-items: center;
-	display: flex;
-	flex-direction: column;
-	height: 100vh;
-	justify-content: center;
-}
 
 /* Tentar Ajudar */
-.floresta-tentar-ajudar {
-	align-items: center;
-	display: flex;
-	flex-direction: column;
-	height: 100vh;
-	justify-content: center;
-}
 
-.floresta-tentar-sair {
-	align-items: center;
-	display: flex;
-	flex-direction: column;
-	height: 100vh;
-	justify-content: center;
-}
 
 /* Templo Ninja */
-.templo-ninja {
-	align-items: center;
-	display: flex;
-	flex-direction: column;
-	height: 100vh;
-	justify-content: center;
-}
+
 
 /* --------- */
 /* ANIMAÇÕES */
