@@ -130,6 +130,31 @@ input:focus {
 	transition: all .3s ease;
 }
 
+.logo {
+	position: absolute;
+	top: -135px;
+	transform: scale(0.4);
+}
+
+.social-media {
+	bottom: 0;
+	display: flex;
+	margin-bottom: 45px;
+	position: absolute;
+}
+
+.fa-github-square, .fa-linkedin {
+			margin: 0px 10px;
+			transition: all .7s ease;
+}
+
+.fa-github-square:hover, .fa-linkedin:hover {
+			cursor: pointer;
+			transform: scale(1.1);
+			transition: all .3s ease;
+}
+
+
 /* NAME */
 /* NAME */
 
