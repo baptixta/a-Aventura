@@ -67,6 +67,7 @@ input:focus {
 	border: 7px solid #f1f1f1;
 	margin: 40px 30px;
 	padding: 20px;
+	position: relative;
 	transition: all .4s ease;
 }
 
@@ -195,6 +196,32 @@ input:focus {
 	flex-direction: column;
 	height: 100vh;
 	justify-content: center;
+}
+
+.floresta-direita {
+	align-items: center;
+	display: flex;
+	flex-direction: column;
+	height: 100vh;
+	justify-content: center;
+}
+
+.floresta-esquerda {
+	align-items: center;
+	display: flex;
+	flex-direction: column;
+	height: 100vh;
+	justify-content: center;
+}
+
+.morro:after {
+	background-color: #f1f1f1;
+	content: '';
+	height: 200px;
+	left: 48%;
+	margin-top: 20px;
+	position: absolute;
+	width: 30px;
 }
 
 /* Ignorar */
