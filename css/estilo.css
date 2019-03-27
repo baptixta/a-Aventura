@@ -84,6 +84,10 @@ input:focus {
 	text-align: center;
 }
 
+.eu {
+	animation: float .2s infinite;
+}
+
 /* HOME */
 /* HOME */
 
@@ -93,6 +97,7 @@ input:focus {
 	flex-direction: column;
 	height: 100vh;
 	justify-content: center;
+	position: relative;
 }
 
 .title {
@@ -241,6 +246,22 @@ input:focus {
 	justify-content: center;
 }
 
+.floresta-ignorar-3 {
+	align-items: center;
+	display: flex;
+	flex-direction: column;
+	height: 100vh;
+	justify-content: center;
+}
+
+.floresta-ignorar-fim {
+	align-items: center;
+	display: flex;
+	flex-direction: column;
+	height: 100vh;
+	justify-content: center;
+}
+
 /* Tentar Ajudar */
 .floresta-tentar-ajudar {
 	align-items: center;
@@ -265,4 +286,19 @@ input:focus {
 	flex-direction: column;
 	height: 100vh;
 	justify-content: center;
+}
+
+/* --------- */
+/* ANIMAÇÕES */
+
+@keyframes float {
+	0% {
+		transform: translatey(0px);
+	}
+	50% {
+		transform: translatey(-22px);
+	}
+	100% {
+		transform: translatey(0px);
+	}
 }
