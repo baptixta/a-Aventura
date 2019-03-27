@@ -15,16 +15,16 @@ body {
 	font-size: 30px;
 }
 
+#body-guerreiro {
+	background: linear-gradient(to right, #8e0e00, #1f1c18);
+}
+
 #body-floresta-muda {
-	
+	background: linear-gradient(to right, #3ca55c, #b5ac49);
 }
 
 #body-templo-ninja {
 	background: linear-gradient(to right, #333333, #dd1818);
-	color: #f1f1f1;
-	font-family: 'Press Start 2P', cursive;
-	padding: 10px;
-	font-size: 30px;
 }
 
 a {
