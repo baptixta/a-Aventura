@@ -54,6 +54,35 @@ input:focus {
 	transition: all .3s ease;
 }
 
+.content {
+	display: flex;
+}
+
+.text {
+	text-align: center;
+	width: 80%;
+}
+
+.box {
+	border: 7px solid #f1f1f1;
+	margin: 40px 30px;
+	padding: 20px;
+	transition: all .4s ease;
+}
+
+.box:hover {
+	box-shadow: 0px 0px 30px 5px rgba(241,241,241,1);
+	cursor: pointer;
+	-moz-box-shadow: 0px 0px 30px 5px rgba(241,241,241,1);
+	transition: all .4s ease;
+	-webkit-box-shadow: 0px 0px 30px 5px rgba(241,241,241,1);
+}
+
+.reset-journey {
+	font-size: 11px;
+	text-align: center;
+}
+
 /* HOME */
 /* HOME */
 
@@ -124,25 +153,6 @@ input:focus {
 	text-align: center;
 }
 
-.armas-content {
-	display: flex;
-}
-
-.armas-box {
-	border: 7px solid #f1f1f1;
-	margin: 40px 30px;
-	padding: 20px;
-	transition: all .4s ease;
-}
-
-.armas-box:hover {
-	box-shadow: 0px 0px 30px 5px rgba(241,241,241,1);
-	cursor: pointer;
-	-moz-box-shadow: 0px 0px 30px 5px rgba(241,241,241,1);
-	transition: all .4s ease;
-	-webkit-box-shadow: 0px 0px 30px 5px rgba(241,241,241,1);
-}
-
 /* JORNADA - ESPADA  */
 /* JORNADA - ESPADA */
 
@@ -155,11 +165,6 @@ input:focus {
 	justify-content: center;
 }
 
-.espada-text {
-	text-align: center;
-	width: 80%;
-}
-
 /* INTRO */
 .espada-intro {
 	align-items: center;
@@ -169,27 +174,8 @@ input:focus {
 	justify-content: center;
 }
 
-.espada-content {
-	display: flex;
-}
-
-.espada-box {
-	border: 7px solid #f1f1f1;
-	margin: 40px 30px;
-	padding: 20px;
-	transition: all .4s ease;
-}
-
-.espada-box:hover {
-	box-shadow: 0px 0px 30px 5px rgba(241,241,241,1);
-	cursor: pointer;
-	-moz-box-shadow: 0px 0px 30px 5px rgba(241,241,241,1);
-	transition: all .4s ease;
-	-webkit-box-shadow: 0px 0px 30px 5px rgba(241,241,241,1);
-}
-
 .espada-lugar {
-	margin-top: 50px;
+	margin-top: 45px;
 	text-align: center;
 }
 
@@ -220,8 +206,33 @@ input:focus {
 	justify-content: center;
 }
 
+.floresta-ignorar-2 {
+	align-items: center;
+	display: flex;
+	flex-direction: column;
+	height: 100vh;
+	justify-content: center;
+}
+
 /* Tentar Ajudar */
 .floresta-tentar-ajudar {
+	align-items: center;
+	display: flex;
+	flex-direction: column;
+	height: 100vh;
+	justify-content: center;
+}
+
+.floresta-tentar-sair {
+	align-items: center;
+	display: flex;
+	flex-direction: column;
+	height: 100vh;
+	justify-content: center;
+}
+
+/* Templo Ninja */
+.templo-ninja {
 	align-items: center;
 	display: flex;
 	flex-direction: column;

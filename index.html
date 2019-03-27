@@ -32,18 +32,18 @@
 		<!-- ARMA -->
 		<div id="armas" class="armas">
 			<h1 class="armas-title">VAI USAR O QUE?</h1>
-			<div class="armas-content">
+			<div class="content">
 				<a href="#espada-inicio">
-					<div class="armas-box">
+					<div class="box">
 							<img src="img/espada.png" alt="ESPADA" title="ESPADA">
 					</div>
 				</a>
 
-				<div class="armas-box">
-					<img src="img/varinha.png" alt="VARINHA" title="VARINHA">
+				<div class="box">
+					<img src="img/varinha.png" alt="MAGIA" title="MAGIA">
 				</div>
 
-				<div class="armas-box">
+				<div class="box">
 					<img src="img/fala.png" alt="PERSUASÃO" title="PERSUASÃO">
 				</div>
 			</div>
@@ -55,7 +55,7 @@
 		<div id="espada-inicio" class="espada-inicio">
 			<img src="img/reino.png">
 			<h2>Olá, <span class="nome-player"></span>!</h2>
-			<p class="espada-text">Você acaba de chegar no reino de Brygrons. Essa é uma aventura interativa, e cada decisão que você fizer vai alterar seu destino final.</p>
+			<p class="text">Você acaba de chegar no reino de Brygrons. Essa é uma aventura interativa, e cada decisão que você fizer vai alterar seu destino final.</p>
 
 			<div class="arrow">
 				<a href="#espada-intro">
@@ -66,56 +66,60 @@
 
 		<!-- ESPADA - INTRO -->
 		<div id="espada-intro" class="espada-intro">
-			<p class="espada-text"><span class="nome-player"></span>O que você quer explorar?</p>
+			<p class="text"><span class="nome-player"></span>O que você quer explorar?</p>
 
-			<div class="espada-content">
+			<div class="content">
 					<a href="#floresta-muda">
-						<div class="espada-box">
+						<div class="box">
 								<img src="img/floresta.png">
 						</div>
 					</a>
 
 					<a href="#floresta-muda">
-						<div class="espada-box">
+						<div class="box">
 								<p class="espada-lugar">Floresta Muda</p>
 						</div>
 					</a>
 			</div>
 
-			<div class="espada-content">
-				<div class="espada-box">
-					<img src="img/templo.png">
-				</div>
+			<div class="content">
+				<a href="#templo-ninja">
+					<div class="box">
+						<img src="img/templo.png">
+					</div>
+				</a>
 
-				<div class="espada-box">
-					<p class="espada-lugar">Templo Ninja</p>
-				</div>
+				<a href="#templo-ninja">
+					<div class="box">
+						<p class="espada-lugar">Templo Ninja</p>
+					</div>
+				</a>
 			</div>
 		</div>
 
 		<!-- FLORESTA MUDA -->
 		<div id="floresta-muda" class="floresta-muda">
-			<p class="espada-text">
+			<p class="text">
 				Ao entrar na floresta, você encontrou uma árvore viva,
-				com sua boca selada com um feitiço, e ela parece querer te dizer algo.
+				com sua boca selada por um feitiço, e ela parece querer te dizer algo.
 				O que você faz?
 			</p>
 
-			<div class="espada-content">
+			<div class="content">
 				<a href="#floresta-atacar">
-					<div class="espada-box">
+					<div class="box">
 						<p>atacar</p>
 					</div>
 				</a>
 
 				<a href="#floresta-ignorar">
-					<div class="espada-box">
+					<div class="box">
 						<p>ignorar</p>
 					</div>
 				</a>
 
 				<a href="#floresta-tentar-ajudar">
-					<div class="espada-box">
+					<div class="box">
 						<p>tentar ajudar</p>
 					</div>
 				</a>
@@ -124,27 +128,96 @@
 
 		<!-- ATACAR -->
 		<div id="floresta-atacar" class="floresta-atacar">
-			<p class="espada-text">
+			<p class="text">
 				Você ataca a árvore, e no momento que sua espada encosta no tronco da grande
-				árvore, o feitiço que deixava a deixava muda é desfeito.
+				árvore, o feitiço que a deixava muda é desfeito.
+				Ela te agradece e diz:
 			</p>
+
+			<p class="text">-Para direita vai quem tem a barba feita,
+			para a esquerda quem não tem medo de perda!</p>
+
+			<div class="content">
+				<a href="#floresta-esquerda">
+					<div class="box">
+						<p>esquerda</p>
+					</div>
+				</a>
+
+				<a href="#floresta-direita">
+					<div class="box">
+						<p>direita</p>
+					</div>
+				</a>
+			</div>
 		</div>
 		<!-- FIM ATACAR -->
 
 		<!-- IGNORAR -->
 		<div id="floresta-ignorar" class="floresta-ignorar">
+			<p class="text">
+				você seguiu seu caminho, e ao seguir em frente,
+				sentiu que tinha alguém te seguindo. O que você faz?
+			</p>
 
+			<div class="content">
+				<a href="#floresta-olhar">
+					<div class="box">
+						<p>olhar p/ trás</p>
+					</div>
+				</a>
+
+				<a href="#floresta-seguir">
+					<a href="#floresta-ignorar-2">
+					<div class="box">
+						<p>ignorar</p>
+					</div>
+				</a>
+			</div>
+		</div>
+
+		<div id="floresta-ignorar-2" class="floresta-ignorar-2">
+				<p class="text">
+
+				</p>
 		</div>
 		<!-- FIM IGNORAR -->
 
 		<!-- TENTAR AJUDAR -->
 		<div id="floresta-tentar-ajudar" class="floresta-tentar-ajudar">
+			<img src="img/galhos.png">
 
+			<p class="text">
+				você se aproximou para tentar ajudar, mas quando foi enconstar na árvore,
+				ela te asfixiou no meio de seus galhos.
+			</p>
+
+			<div class="content">
+				<a href="#floresta-tentar-sair">
+					<div class="box">
+						<p>tentar sair</p>
+					</div>
+				</a>
+			</div>
+		</div>
+
+		<div id="floresta-tentar-sair" class="floresta-tentar-sair">
+			<p class="reset-journey">
+				aperte f5 pra recomeçar a jornada
+			</p>
+
+			<h1 class="title">
+				GAME OVER
+			</h1>
+
+			<p class="text">
+				Você foi morto pelos galhos da árvore (r.i.p meu bacana)
+			</p>
 		</div>
 		<!-- FIM TENTAR AJUDAR -->
 
 		<!-- TEMPL0 NINJA -->
-		<div id="templo-ninja" class="">
+		<div id="templo-ninja" class="templo-ninja">
 
 		</div>
 
