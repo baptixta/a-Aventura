@@ -1,3 +1,5 @@
+<img src="https://github.com/baptixta/a-Aventura/blob/master/img/icone.png">
+
 # a Aventura
 Aventura Interativa | a Aventura
 
