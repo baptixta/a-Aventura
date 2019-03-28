@@ -207,8 +207,6 @@ input:focus {
 
 /* Floresta Muda */
 
-/* Atacar */
-
 .morro:after {
 	background-color: #f1f1f1;
 	content: '';
@@ -219,14 +217,15 @@ input:focus {
 	width: 30px;
 }
 
-/* Ignorar */
+#areia-movedica {
+	animation: float 3s ease infinite;
+	margin-bottom: 30px;
+}
 
-
-/* Tentar Ajudar */
-
-
-/* Templo Ninja */
-
+#areia-movedica-forte {
+	animation: sand 1s ease infinite;
+	margin-bottom: 30px;
+}
 
 /* --------- */
 /* ANIMAÇÕES */
@@ -240,5 +239,17 @@ input:focus {
 	}
 	100% {
 		transform: translatey(0px);
+	}
+}
+
+@keyframes sand {
+	0% {
+		transform: translatex(0px);
+	}
+	50% {
+		transform: translatex(-22px);
+	}
+	100% {
+		transform: translatex(0px);
 	}
 }
