@@ -12,3 +12,6 @@ Espero que goste, e se quiser adicionar alguma coisa ou dar alguma sugestão, fi
 - HTML5
 - CSS3
 - JS
+
+**//**
+- license
