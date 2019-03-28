@@ -13,4 +13,5 @@ Espero que goste, e se quiser adicionar alguma coisa ou dar alguma sugestão, fi
 - CSS3
 - JS
 
-[![License](http://img.shields.io/:license-mit-blue.svg?style=flat-square)](http://badges.mit-license.org) © Davi Arcos Baptista
+[![License](http://img.shields.io/:license-mit-blue.svg?style=flat-square)](http://badges.mit-license.org) 
+© Davi Arcos Baptista
