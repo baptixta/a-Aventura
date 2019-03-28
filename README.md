@@ -1,5 +1,4 @@
-<img src="https://github.com/baptixta/a-Aventura/blob/master/img/davi-baptista.png"
-style="color: #000; transform: scale(0.5);">
+<img src="https://github.com/baptixta/a-Aventura/blob/master/img/icone.png">
 
 # a Aventura
 Aventura Interativa | a Aventura
