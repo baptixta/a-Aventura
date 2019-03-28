@@ -13,5 +13,4 @@ Espero que goste, e se quiser adicionar alguma coisa ou dar alguma sugestão, fi
 - CSS3
 - JS
 
-**//**
-- license
+(http://img.shields.io/gem/v/badgerbadgerbadger.svg?style=flat-square)](https://rubygems.org/gems/badgerbadgerbadger) [![License](http://img.shields.io/:license-mit-blue.svg?style=flat-square)](http://badges.mit-license.org) [![Badges]
