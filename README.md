@@ -1,5 +1,5 @@
 # a Aventura
-RPG | A Aventura
+Aventura Interativa | a Aventura
 
 
 Fiz essa história interativa, pois sempre curti a ideia de poder decidir o destino das personagens.
