@@ -7,8 +7,8 @@ Aventura Interativa | a Aventura
 Fiz essa história interativa, pois sempre curti a ideia de poder decidir o destino das personagens.
 Espero que goste, e se quiser adicionar alguma coisa ou dar alguma sugestão, fica a vontade.
 
-> O que foi usado
+> O que foi usado no projeto
+- CRIATIVIDADE (HEHE)
 - HTML5
 - CSS3
 - JS
-- CRIATIVIDADE (HEHE)
